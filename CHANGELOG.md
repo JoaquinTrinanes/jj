@@ -78,6 +78,10 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 * Add a new template alias `bultin_log_compact_full_description()`.
 
+* `jj duplicate` now accepts `--destination`, `--insert-after` and
+  `--insert-before` options to customize the location of the duplicated
+  revisions.
+
 ### Fixed bugs
 
 * Error on `trunk()` revset resolution is now handled gracefully.
