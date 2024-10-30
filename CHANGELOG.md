@@ -84,6 +84,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * New command `jj config unset` that unsets config values. For example,
   `jj config unset --user user.name`.
 
+* The `jj desc` and `jj ci` aliases are now hidden to not interfere with shell
+  completion. They remain available.
+
 ### Fixed bugs
 
 * Error on `trunk()` revset resolution is now handled gracefully.

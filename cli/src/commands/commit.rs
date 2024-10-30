@@ -28,7 +28,7 @@ use crate::ui::Ui;
 
 /// Update the description and create a new change on top.
 #[derive(clap::Args, Clone, Debug)]
-#[command(visible_aliases=&["ci"])]
+#[command(alias = "ci")]
 pub(crate) struct CommitArgs {
     /// Interactively choose which changes to include in the first commit
     #[arg(short, long)]

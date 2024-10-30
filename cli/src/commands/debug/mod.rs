@@ -68,7 +68,7 @@ pub enum DebugCommand {
     Fileset(DebugFilesetArgs),
     Index(DebugIndexArgs),
     LocalWorkingCopy(DebugLocalWorkingCopyArgs),
-    #[command(visible_alias = "view")]
+    #[command(alias = "view")]
     Operation(DebugOperationArgs),
     Reindex(DebugReindexArgs),
     Revset(DebugRevsetArgs),
